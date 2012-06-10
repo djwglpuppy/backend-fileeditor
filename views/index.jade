@@ -1,0 +1,29 @@
+.navbar.navbar-fixed-top
+	.navbar-inner
+		.container
+			.brand EtymOnline Site Administration
+			ul.nav.pull-right
+				li.active
+					a(href='#contenteditor') Content Editor
+				li
+					a(href='#termeditor') Term Editor
+
+#alert.alert.alert-success.container Your Content Has Been Saved
+
+#contenteditor.container
+	h1 Content Editor
+
+	form.form-horizontal
+		fieldset
+			.control-group
+				label.control-label(for='pagesel') Content page:
+				.controls
+					select(name='pagesel')
+
+			textarea.contentedit.ninetyfivepercent(name='editor')
+
+	.ninetyfivepercent
+		.btn.btn-inverse.pull-right
+			i.icon-white.icon-hdd
+			|  Save 
+

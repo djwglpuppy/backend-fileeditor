@@ -1,0 +1,8 @@
+body,html{background:url("/img/bg-leather.jpg")}
+body{padding-top:60px;color:#fff}
+.form-horizontal{margin-top:20px;}
+.form-horizontal .control-label{text-align:left;padding-left:10px;width:100px}
+.form-horizontal .controls{margin-left:100px}
+.form-horizontal .contentedit{height:400px}
+.ninetyfivepercent{width:95%}
+#alert{display:none}
